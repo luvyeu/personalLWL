@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     let currentImageIndex = 0;
-    const imagePaths = ['a1.jpg', 'a2.jpg', 'a3.jpg', 'a4.jpg', 'a5.jpg', 'a6.jpg', 'a7.jpg', 'a8.jpg'];
+    const imagePaths = ['b1.png', 'b2.png', 'b3.png', 'b4.png', 'b5.png', 'b6.png', 'b7.png', 'b8.png', 'b9.png', 'b10.png','b11.png', 'b12.png', 'b13.png', 'b14.png', 'b15.png', 'b16.png', 'b17.png', 'b18.png', 'b19.png'];
     const imageContainer = document.querySelector('.image-container');
 
     function rotateImages() {

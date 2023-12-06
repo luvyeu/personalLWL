@@ -28,6 +28,7 @@
 /* Hover effect for the .button */
 .button:hover {
     background-color: rgb(87, 28, 143); /* Darker color on hover */
+    transform: scale(1.1);
 }
 
 /* Optional: Add media queries for responsive design */
@@ -124,7 +125,7 @@
 
     /* Add hover effect */
     &:hover {
-        background-color: #d3bb35; /* Darker green on hover */
+        background-color: #5b21c7; /* Darker green on hover */
     }
 
     /* Additional styles for larger screens if needed */
@@ -147,7 +148,7 @@
 
     /* Add hover effect */
     &:hover {
-        background-color: #d3bb35; /* Darker green on hover */
+        background-color: #5b21c7; /* Darker green on hover */
     }
 
     /* Additional styles for larger screens if needed */

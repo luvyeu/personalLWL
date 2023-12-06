@@ -155,7 +155,7 @@ body {
 
     /* Add hover effect */
     &:hover {
-        background-color: #d3bb35; /* Darker green on hover */
+        background-color: #a62bb6; /* Darker green on hover */
     }
 
     /* Additional styles for larger screens if needed */
@@ -178,7 +178,7 @@ body {
 
     /* Add hover effect */
     &:hover {
-        background-color: #2980b9; /* Darker blue on hover */
+        background-color: #a62bb6; /* Darker blue on hover */
     }
 }
 
@@ -196,7 +196,7 @@ body {
 
     /* Add hover effect */
     &:hover {
-        background-color: #45a049; /* Darker green on hover */
+        background-color: #a62bb6; /* Darker green on hover */
     }
 
     /* Additional styles for larger screens if needed */
@@ -219,7 +219,7 @@ body {
 
     /* Add hover effect */
     &:hover {
-        background-color: #45a049; /* Darker green on hover */
+        background-color: #a62bb6; /* Darker green on hover */
     }
 
     /* Additional styles for larger screens if needed */
@@ -289,8 +289,10 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #a62bb6;
+    transform: scale(1.1);
 }
+
 
 
 
@@ -316,8 +318,10 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #a62bb6;
+    transform: scale(1.1);
 }
+
 
 /* Additional styles for the Xiao Hong Shu button */
 #xiaohongshuButton {
@@ -325,7 +329,7 @@ button:hover {
 }
 
 #xiaohongshuButton:hover {
-    background-color: #BF0000; /* Darker red on hover */
+    background-color: #a62bb6; /* Darker red on hover */
 }
 
 

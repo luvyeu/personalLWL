@@ -75,8 +75,8 @@ header h1 {
 
 
 
+
 .charming-button {
-    margin: 0 10px;
     margin: 5px; /* Add some margin between buttons for spacing */
     padding: 10px 20px; /* Adjust padding as needed */
     background: #2187c2;
@@ -86,7 +86,10 @@ header h1 {
     cursor: pointer;
     font-size: 16px; /* Adjust font size as needed */
     transition: background 0.3s ease;
+    flex-grow: 1; /* Add this property to make all buttons grow equally */
+    box-sizing: border-box; /* Add this property to include padding and border in the button's total width */
 }
+
 
 
 @media (max-width: 600px) {
@@ -101,7 +104,9 @@ header h1 {
 
 .charming-button:hover {
     background: rgb(98, 9, 133);
+    transform: scale(1.1);
 }
+
 
 footer {
     text-align: center;
