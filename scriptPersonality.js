@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to navigate back to discover-1.html
     function goBack() {
-        window.location.href = "Home.html";
+        window.location.href = "home.html";
     }
     
     // Back button click event
