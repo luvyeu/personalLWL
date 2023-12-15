@@ -22,7 +22,7 @@
     vertical-align: middle; /* Vertically align the button */
     white-space: pre-line; /* Allow text to wrap and break into multiple lines */
     font-size: 14px;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Include transform in the transition property */
+    transition: background-color 0.3s ease;
 }
 
 /* Hover effect for the .button */
@@ -121,8 +121,7 @@
     border-radius: 25px; /* Round the corners */
     cursor: pointer; /* Add a pointer cursor on hover */
     font-size: 16px; /* Font size for the form button */
-
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Include transform in the transition property */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
 
     /* Add hover effect */
     &:hover {
@@ -145,7 +144,7 @@
     border-radius: 25px; /* Round the corners */
     cursor: pointer; /* Add a pointer cursor on hover */
     font-size: 16px; /* Font size for the form button */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Include transform in the transition property */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
 
     /* Add hover effect */
     &:hover {
@@ -199,7 +198,7 @@
     border-radius: 25px; /* Round the corners */
     cursor: pointer; /* Add a pointer cursor on hover */
     font-size: 16px; /* Font size for the form button */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Include transform in the transition property */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
 
     /* Add hover effect */
     &:hover {

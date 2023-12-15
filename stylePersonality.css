@@ -1,5 +1,5 @@
 
-/* Common button styles for discover.html -- the 4 buttons*/
+/* Common button styles */
 .button {
     margin: 15px 10px; /* Add spacing between buttons */
     padding: 10px 20px; /* Set the padding to create a square button */
@@ -11,43 +11,36 @@
     display: inline-block;
     align-items: center;
     justify-content: center;
-    width: 130px; /* Set maximum width for the button */
-    height: 130px; /* Set the same height as the width to create a square button */
+    max-width: 150px; /* Set maximum width for the button */
+    /* height: 150px; Set the same height as the width to create a square button */
     box-sizing: border-box;
     text-decoration: none; /* Remove the underline style for anchor tags */
     text-align: center;  /*Center the text inside the button */
     /*word-wrap: break-word;  Allow words to be broken and wrap to the next line */
-    line-height: 2; /* Adjust line height to reduce the gap between lines */
+    line-height: 3; /* Adjust line height to reduce the gap between lines */
     overflow: hidden; /* Hide overflowing content */
     vertical-align: middle; /* Vertically align the button */
     white-space: pre-line; /* Allow text to wrap and break into multiple lines */
-    font-size: 14px;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Include transform in the transition property */
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
-/* Hover effect for the .button */
+
 .button:hover {
-    background-color: rgb(87, 28, 143); /* Darker color on hover */
+    background-color: #5b21c7; /* Darker blue on hover */
     transform: scale(1.1);
 }
 
 /* Optional: Add media queries for responsive design */
+
 @media (min-width: 768px) {
     .button {
         /*max-width: 100%; /* Adjust maximum width for smaller screens */
-        width: 180px; /* Adjust the width for larger screens if needed */
+        width: 150px; /* Adjust the width for larger screens if needed */
         height: 150px; /* Set the same height as the width for a square button */
     }
 }
 
-/* .container function is to properly arrange the button arrange in center for Disocver.html*/
-/* Center the content in a container */
-.container {
-    text-align: center;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
 
 /* Center the content in a container */
 .container {
@@ -57,15 +50,21 @@
 }
 
 
-/* .content function is to provide background image for Disocver.html*/
+/* Center the content in a container */
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* Style for the content section */
 .content {
-    background-image: url('images/backgroundHome - 7.png'); /* Path to your background image */
+    background-image: url('images/backgroundHome - 12.png'); /* Path to your background image */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     
-    background-color: rgb(117, 230, 202);
+    background-color: rgb(253, 226, 73);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -95,6 +94,7 @@
 
 
 
+
 /* display image format */
 .image-container {
     text-align: center; /* Center the image horizontally */
@@ -110,59 +110,14 @@
 
 
 
-/* Additional styles for discover-1-2-3-4.html */
 
-.prevButton {
-    margin-top: 20px; /* Add some space between the form button and other elements */
-    padding: 15px 30px; /* Padding for the form button */
-    background-color: #d3bb35; /* Green background color */
-    color: #116479; /* White text color */
-    border: none; /* Remove border */
-    border-radius: 25px; /* Round the corners */
-    cursor: pointer; /* Add a pointer cursor on hover */
-    font-size: 16px; /* Font size for the form button */
-
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Include transform in the transition property */
-
-    /* Add hover effect */
-    &:hover {
-        background-color: #5b21c7; /* Darker green on hover */
-    }
-
-    /* Additional styles for larger screens if needed */
-    @media (min-width: 768px) {
-        font-size: 18px; /* Increase font size for larger screens */
-        padding: 20px 40px; /* Adjust padding for larger screens */
-    }
+/* Additional styles for button2 */
+#button2 {
+    width: 200px;
+    height: 80px;
+    font-size: 18px;
+    line-height: 80px;
 }
-
-.nextButton {
-    margin-top: 20px; /* Add some space between the form button and other elements */
-    padding: 15px 30px; /* Padding for the form button */
-    background-color: #d3bb35; /* Green background color */
-    color: #116479; /* White text color */
-    border: none; /* Remove border */
-    border-radius: 25px; /* Round the corners */
-    cursor: pointer; /* Add a pointer cursor on hover */
-    font-size: 16px; /* Font size for the form button */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Include transform in the transition property */
-
-    /* Add hover effect */
-    &:hover {
-        background-color: #5b21c7; /* Darker green on hover */
-    }
-
-    /* Additional styles for larger screens if needed */
-    @media (min-width: 768px) {
-        font-size: 18px; /* Increase font size for larger screens */
-        padding: 20px 40px; /* Adjust padding for larger screens */
-    }
-}
-
-
-
-
-/* Additional styles for button*/
 
 #homeButton {
     margin-top: 20px; /* Add some space between the form button and other elements */
@@ -177,7 +132,7 @@
 
     /* Add hover effect */
     &:hover {
-        background-color: #35d357; /* Darker green on hover */
+        background-color: #5b21c7; /* Darker green on hover */
     }
 
     /* Additional styles for larger screens if needed */
@@ -187,31 +142,71 @@
     }
 }
 
-/* back button for discover-1.html */
-.backButton {
-   
-
-    margin-top: 20px; /* Add some space between the form button and other elements */
-    padding: 15px 30px; /* Padding for the form button */
-    background-color: #d3bb35; /* Green background color */
-    color: #116479; /* White text color */
+/* back button for page1-1.html */
+#backButton {
+    background-color: #3498db; /* Blue background color */
+    color: white; /* White text color */
     border: none; /* Remove border */
-    border-radius: 25px; /* Round the corners */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Add padding */
     cursor: pointer; /* Add a pointer cursor on hover */
-    font-size: 16px; /* Font size for the form button */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Include transform in the transition property */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
 
     /* Add hover effect */
     &:hover {
-        background-color: #29b96a; /* Darker blue on hover */
+        background-color: #5b21c7; /* Darker blue on hover */
+    }
+}
+
+
+.button#calButton {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #d3bb35;
+    color: #116479;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Center the text horizontally */
+    line-height: 1; /* Reset line height to enable vertical centering */
+    display: inline-block; /* Make the button a block element */
+    width: auto; /* Let the button width adjust to the content */
+    height: auto; /* Let the button height adjust to the content */
+}
+
+@media (min-width: 768px) {
+    .button {
+        width: auto; /* Adjust the width for larger screens if needed */
+        height: auto; /* Set the same height as the width for a square button */
     }
 }
 
 
 
+/* Additional styles for the new sections */
+.table-container {
+    margin-top: 20px;
+    text-align: center;
+}
 
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
+.table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
 
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
 
 
 

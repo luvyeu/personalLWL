@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore for Character</title>
+    <link rel="stylesheet" href="styleExp.css">
+    <style>
+        .slideshow-container {
+            max-width: 100%;
+            position: relative;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        .slideshow-container img {
+            width: 100%;
+            height: auto;
+        }
+
+        #backButton {
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #d3bb35;
+            color: #116479;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        #backButton:hover {
+            background-color: #5b21c7;
+        }
+
+        .title-container {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title-container">
+            <h1>Way to get it</h1>
+            <h2>找寻方式</h2>
+            <!-- Back button -->
+            <button id="backButton">Back 返回</button>
+        </div>
+
+        <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="images/character1.png" alt="Slide 1">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/character2.png" alt="Slide 2">
+            </div>
+
+            <div class="mySlides">
+                <img src="images/character3.png" alt="Slide 3">
+            </div>
+
+
+
+            <!-- Next and previous buttons -->
+            <button class="prevButton" onclick="plusSlides(-1)">❮ Previous</button>
+            <button class="nextButton" onclick="plusSlides(1)">Next ❯</button>
+         
+        </div>
+    </div>
+
+    <script src="scriptExp.js"></script>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            let i;
+            const slides = document.getElementsByClassName("mySlides");
+
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+    <!-- 
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            const slides = document.getElementsByClassName("mySlides");
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000); // Change slide every 2 seconds (2000 milliseconds)
+        }
+    </script>
+    -->
+</body>
+
+</html>

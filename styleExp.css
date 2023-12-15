@@ -1,44 +1,4 @@
 
-/* Common button styles for discover.html -- the 4 buttons*/
-.button {
-    margin: 15px 10px; /* Add spacing between buttons */
-    padding: 10px 20px; /* Set the padding to create a square button */
-    background-color: #116479;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
-    width: 130px; /* Set maximum width for the button */
-    height: 130px; /* Set the same height as the width to create a square button */
-    box-sizing: border-box;
-    text-decoration: none; /* Remove the underline style for anchor tags */
-    text-align: center;  /*Center the text inside the button */
-    /*word-wrap: break-word;  Allow words to be broken and wrap to the next line */
-    line-height: 2; /* Adjust line height to reduce the gap between lines */
-    overflow: hidden; /* Hide overflowing content */
-    vertical-align: middle; /* Vertically align the button */
-    white-space: pre-line; /* Allow text to wrap and break into multiple lines */
-    font-size: 14px;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Include transform in the transition property */
-}
-
-/* Hover effect for the .button */
-.button:hover {
-    background-color: rgb(87, 28, 143); /* Darker color on hover */
-    transform: scale(1.1);
-}
-
-/* Optional: Add media queries for responsive design */
-@media (min-width: 768px) {
-    .button {
-        /*max-width: 100%; /* Adjust maximum width for smaller screens */
-        width: 180px; /* Adjust the width for larger screens if needed */
-        height: 150px; /* Set the same height as the width for a square button */
-    }
-}
 
 /* .container function is to properly arrange the button arrange in center for Disocver.html*/
 /* Center the content in a container */
@@ -113,16 +73,15 @@
 /* Additional styles for discover-1-2-3-4.html */
 
 .prevButton {
-    margin-top: 20px; /* Add some space between the form button and other elements */
-    padding: 15px 30px; /* Padding for the form button */
-    background-color: #d3bb35; /* Green background color */
+    margin-top: 10px; /* Add some space between the form button and other elements */
+    padding: 10px 30px; /* Padding for the form button */
+    background-color: #16a044; /* Green background color */
     color: #116479; /* White text color */
     border: none; /* Remove border */
-    border-radius: 25px; /* Round the corners */
+    border-radius: 20px; /* Round the corners */
     cursor: pointer; /* Add a pointer cursor on hover */
     font-size: 16px; /* Font size for the form button */
-
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Include transform in the transition property */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
 
     /* Add hover effect */
     &:hover {
@@ -137,15 +96,15 @@
 }
 
 .nextButton {
-    margin-top: 20px; /* Add some space between the form button and other elements */
-    padding: 15px 30px; /* Padding for the form button */
-    background-color: #d3bb35; /* Green background color */
+    margin-top: 10px; /* Add some space between the form button and other elements */
+    padding: 10px 30px; /* Padding for the form button */
+    background-color: #16a044; /* Green background color */
     color: #116479; /* White text color */
     border: none; /* Remove border */
-    border-radius: 25px; /* Round the corners */
+    border-radius: 20px; /* Round the corners */
     cursor: pointer; /* Add a pointer cursor on hover */
     font-size: 16px; /* Font size for the form button */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Include transform in the transition property */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
 
     /* Add hover effect */
     &:hover {
@@ -186,32 +145,4 @@
         padding: 20px 40px; /* Adjust padding for larger screens */
     }
 }
-
-/* back button for discover-1.html */
-.backButton {
-   
-
-    margin-top: 20px; /* Add some space between the form button and other elements */
-    padding: 15px 30px; /* Padding for the form button */
-    background-color: #d3bb35; /* Green background color */
-    color: #116479; /* White text color */
-    border: none; /* Remove border */
-    border-radius: 25px; /* Round the corners */
-    cursor: pointer; /* Add a pointer cursor on hover */
-    font-size: 16px; /* Font size for the form button */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Include transform in the transition property */
-
-    /* Add hover effect */
-    &:hover {
-        background-color: #29b96a; /* Darker blue on hover */
-    }
-}
-
-
-
-
-
-
-
-
 
